@@ -86,15 +86,9 @@ python get_clip_embeddings.py --data <path-to-data> --output <path-to-embeddings
 ```
 
 ### Training the Model
-Train LPFormer or lpFormer using `train_model.py`:
-```bash
-python train_model.py --model lpformer --epochs 50 --learning_rate 0.001
-```
 
-### Multimodal Link Transformer
-For multimodal data, use the `link_transformer_multimodal.py`:
 ```bash
-python link_transformer_multimodal.py --input_graph <path-to-graph> --output_links <path-to-output>
+# python src/run.py --data_name pinterest --dataset_path "your_dataset_path" --lr 5e-3  --gnn-layers 1 --dim 128  --batch-size 4086  --epochs 10000 --eps 1e-7 --gnn-drop 0.1 --dropout 0.1 --pred-drop 0.1 --att-drop 0.1 --num-heads 1  --thresh-1hop 1e-2 --thresh-non1hop 1e-2  --feat-drop 0.1 --l2 0 --eval_steps 1 --decay 0.975  --runs 1 --non-verbose --device 0
 ```
 
 ---
