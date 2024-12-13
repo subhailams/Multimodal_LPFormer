@@ -1,15 +1,15 @@
 
 # LPFormer and lpFormer Multimodal Implementation
 
-This repository contains the implementation of two variants: **LPFormer** and **lpFormer**, designed to handle multimodal data. The codebase includes modules for generating graphs, extracting CLIP embeddings, and implementing link transformers with multimodal modifications.
+This repository contains the implementation of two variants: **LPFormer** and **Modified LPFormer with Multimodal Attention**, designed to handle multimodal data. The codebase includes modules for generating graphs, extracting CLIP embeddings, and implementing link transformers with multimodal modifications.
 
 ## File Descriptions
 
 ### 1. `train_model.py`
-This script contains the main training loop for the LPFormer and lpFormer models. It handles data loading, model initialization, and training pipeline setup.
+This script contains the main training loop for the LPFormer model. It handles data loading, model initialization, and training pipeline setup.
 
 Key Features:
-- Supports both LPFormer and lpFormer architectures.
+- Supports  LPFormer architectures.
 - Implements multimodal data handling for text and vision.
 - Includes hyperparameter tuning for optimal performance.
 
