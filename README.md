@@ -1,5 +1,5 @@
 
-# LPFormer and lpFormer Multimodal Implementation
+# Multimodal attention on LPFormer for Link Prediction on Pinterest Implementation
 
 This repository contains the implementation of two variants: **LPFormer** and **Modified LPFormer with Multimodal Attention**, designed to handle multimodal data. The codebase includes modules for generating graphs, extracting CLIP embeddings, and implementing link transformers with multimodal modifications.
 
