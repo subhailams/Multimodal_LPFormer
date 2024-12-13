@@ -104,7 +104,6 @@ python get_clip_embeddings.py --data <path-to-data> --output <path-to-embeddings
 ## Acknowledgments
 
 - [OpenAI CLIP](https://github.com/openai/CLIP) for embeddings.
-- Research on LPFormer and lpFormer architectures for inspiration.
 
 ---
 
